@@ -19,7 +19,7 @@
 #   Statments we use to open different modules that people have built. 
 #   This allows code to be reusable, which is a key factor to good 
 #   programming and performance.
-
+import sys
 # END OF IMPORTS
 
 # START OF CODE BLOCK
@@ -30,11 +30,9 @@ TASKING:
     `systemMod` and than convert this variable to a string which will be placed into `systemModS`.
 """
 
+systemMod = sys.modules
 
-
-
-
-
+systemModS = str(systemMod)
 
 # END OF CODE BLOCK
 
