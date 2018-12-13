@@ -16,9 +16,9 @@
 # END OF METADATA
 
 # IMPORTS BELLOW
-# imports: things we use to open diffrent modules that people have built
-#           This allows code to be reusable, which is a key factor to good
-#           programing and performance. 
+#   Statments we use to open different modules that people have built. 
+#   This allows code to be reusable, which is a key factor to good 
+#   programming and performance.
 
 # END OF IMPORTS
 

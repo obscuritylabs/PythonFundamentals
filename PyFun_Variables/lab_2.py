@@ -1,6 +1,6 @@
 # PYTHON METADATA BELLOW
 '''
-    File name: lab-1.py
+    File name: lab-2.py
     Author: Alexander Rymdeko-Harvey
     Date created: 12/12/2018
     Date last modified: 12/12/2018
@@ -19,24 +19,21 @@
 #   Statments we use to open different modules that people have built. 
 #   This allows code to be reusable, which is a key factor to good 
 #   programming and performance.
-import os
+
 # END OF IMPORTS
 
 # START OF CODE BLOCK
 """
 TASKING:
-    Take the time to create two key variables, currentProgram which is a string
-    that you define of the current program name. Second the use the python builtin
-    os module to get current process id (PID). print both to the console using any
-    method you would like to use.
+    Take the time to create 
 """
 
-currentProgram = 'lab-1.py'
 
-currentPid = os.getpid()
 
-print("current program: %s" % (currentProgram))
-print("current PID: %d" % (currentPid))
+
+
+
+
 
 # END OF CODE BLOCK
 
