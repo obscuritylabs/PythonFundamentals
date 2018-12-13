@@ -31,10 +31,20 @@ TASKING:
     3) Set `dataStrSplit` to the value of `dataStrFull` split on the the character `.`, into a list using a string method (*HINT: Python Docs*)
     4) Try to print `dataStrSplit` with the format string methods like `print('{} {}'.format('one', 'two'))`
 """
-dataStr = 'opensource.com'
-dataStrFull = 'https://' + dataStr
-dataStrSplit = dataStrFull.split('.')
-print('{} {}'.format('Value:', dataStrSplit))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # END OF CODE BLOCK
 

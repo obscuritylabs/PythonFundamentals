@@ -25,10 +25,11 @@
 # START OF CODE BLOCK
 """
 TASKING:
-    Take the time to create two key variables, currentProgram which is a string
-    that you define of the current program name. Second the use the python builtin
-    os module to get current process id (PID). print both to the console using any
-    method you would like to use.
+    Perfrom the following on the variable `dataNum`:
+    1) Set Value to `1.2299`
+    2) Set `dataNumPower` to power of 2 for `dataNum`
+    3) Set `dataNum2` to the int `10`
+    4) Set `dataNum2Bytes` to the bytes of `dataNum2`, setting the length to `1` and the byte order to `big`
 """
 
 dataNum = 1.2299
