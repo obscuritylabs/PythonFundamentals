@@ -1,5 +1,5 @@
 # Python Fun(damentals)
-## Python Types
+## Python 3 Types
 
 
 **Alexander Rymdeko-Harvey**
