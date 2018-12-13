@@ -1,4 +1,4 @@
-# Python Fun(dementals)
+# Python Fun(damentals)
 
 # setup guide
 
