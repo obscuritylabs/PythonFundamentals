@@ -33,8 +33,17 @@ xcode-select --install
 ```
 NOTE: Install guide can be found here [https://brew.sh/](https://brew.sh/)
 ```bash
-brew install python3 pipenv
-python3 -m pip install -U pip
+alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$  brew install python3 pipenv git
+alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$  python3 -m pip install -U pip
+```
+Now our enviroment is ready to to start to get to work within Terminal:
+```bash
+alexanderrymdeko-harvey@alexanders-MacBook-Pro-2:~/tools$ git clone https://github.com/obscuritylabs/PythonFundamentals.git
+alexanderrymdeko-harvey@alexanders-MacBook-Pro-2:~/tools$ cd PythonFundamentals
+alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ pipenv install 
+alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ pipenv shell
+(PythonFundamentals) alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ python --version
+Python 3.6.6
 ```
 ## Ubuntu 18.04
 You will need apt, but ubuntu is easy...
