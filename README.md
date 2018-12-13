@@ -38,8 +38,8 @@ alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$  python3 -m p
 ```
 Now our enviroment is ready to to start to get to work within Terminal:
 ```bash
-alexanderrymdeko-harvey@alexanders-MacBook-Pro-2:~/tools$ git clone https://github.com/obscuritylabs/PythonFundamentals.git
-alexanderrymdeko-harvey@alexanders-MacBook-Pro-2:~/tools$ cd PythonFundamentals
+alexanderrymdeko-harvey@alexandersMBP2:~/tools$ git clone https://github.com/obscuritylabs/PythonFundamentals.git
+alexanderrymdeko-harvey@alexandersMBP2:~/tools$ cd PythonFundamentals
 alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ pipenv install 
 alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ pipenv shell
 (PythonFundamentals) alexanderrymdeko-harvey@alexandersMBP2:~/tools/PythonFundamentals$ python --version
