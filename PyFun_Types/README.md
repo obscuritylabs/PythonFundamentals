@@ -25,14 +25,6 @@ Obscurity Labs
 
 ---
 
-# Install Demo and Instructions 
-1) Windows/Mac/Ubuntu Install Instructions
-2) Python 3.6+ & Packages 
-4) Visual Studio Code
-5) Pipenv Instruction
-
----
-
 # Python 3 Types
 Its important to understand C/C++ principles first, to understand what makes Python types so easy to work with. Lets take the following example in C:
 ```c

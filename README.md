@@ -2,9 +2,11 @@
 
 ## Course TOC
 The course is built to be taught in a structured order:
-1) Python 3 Types
-2) Python 3 Variables
-3) Python 3 Flow Control
+1) Python 3 Setup
+2) Python 3 Core 
+3) Python 3 Types
+4) Python 3 Variables
+5) Python 3 Flow Control
 
 ## Course Introduction 
 This course was designed in free time for our team who are not already or currently studying basic programing principles. It is built to introduce them to a few concepts that are key to understanding the Python programing language and syntax. Many of the lessons as a seasoned programmer come only with time, this course is meant to arm a programmer with the `thought` process and how logic works within the programing world and the basic concepts to apply that `thought` process to get Python to do what you need it get the job done. 
