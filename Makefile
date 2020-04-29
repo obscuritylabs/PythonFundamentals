@@ -22,7 +22,7 @@ shell:
 	@poetry install
 	@poetry shell
 	
-build: clean _build_section_01 _build_section_02 _build_section_03 _build_section_04 _build_section_05
+build: clean _build_section_01 _build_section_02 _build_section_03 _build_section_04 _build_section_05 _build_section_06
 	$(info [*] Build complete..)
 	
 
