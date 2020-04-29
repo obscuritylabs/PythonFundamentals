@@ -45,13 +45,16 @@ A few notes to prevent this `trap` from happening and building confidence in ope
 ---
 # Picking High Quality Packages
 
-A few notes to prevent this `trap` from happening and building confidence in open source code:
+Here are a few tips when selecting Python Packages:
 
-* Mange your overconfidence during the planning phase.
-* Truly learn pip package management, virtual environments, and requirements files.
-* You can build confidence in your package selection through various methods:
-    * Test, test, test. If you don't test, your code is broken.
-    * Pin your packages by versions!
-* Write code at a Higher level of abstraction to focus on the business need not the technical solution.
-* If a solution does not exist READ blogs, posts and any ancillary information you can gather on problem set to increase the likelihood of success.
+* Make sure the package has adequate unit tests.
+* Make sure the package has published code coverage (How much of the source is unit tested).
+* Make sure the package is actively maintained:
+    * Pull requests.
+    * Issues are being resolved.
+    * Recent releases or commits to the code base.
+    * NO vulnerabilities or reported security concerns.
+* Make sure the package has solid documentation and can achieve your goal in a clearly defined matter.
+* Check to make sure the source control management is being done properly.
+
 

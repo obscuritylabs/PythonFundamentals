@@ -22,7 +22,7 @@ shell:
 	@poetry install
 	@poetry shell
 	
-build: clean _build_section_01 _build_section_02
+build: clean _build_section_01 _build_section_02 _build_section_03 _build_section_04 _build_section_05
 	$(info [*] Build complete..)
 	
 
@@ -54,11 +54,31 @@ _docker_clean:
 	@docker-compose -f local.yml rm 2>/dev/null
 
 _build_section_01:
+	$(info [*] Building section 1..)
 	@marp --pdf -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/pdf/
 	@marp --pptx --jpeg-quality 100 -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/pptx/
 	@marp --bespoke.progress --bespoke.osc -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/html/
 
 _build_section_02:
+	$(info [*] Building section 2..)
 	@marp --pdf -I 02_python3_packaging_managment/slides/ -o compiled_slides/pdf/
 	@marp --pptx --jpeg-quality 100 -I 02_python3_packaging_managment/slides/ -o compiled_slides/pptx/
 	@marp --bespoke.progress --bespoke.osc -I 02_python3_packaging_managment/slides/ -o compiled_slides/html/
+
+_build_section_03:
+	$(info [*] Building section 3..)
+	@marp --pdf -I 03_python3_core_fundementals/slides/ -o compiled_slides/pdf/
+	@marp --pptx --jpeg-quality 100 -I 03_python3_core_fundementals/slides/ -o compiled_slides/pptx/
+	@marp --bespoke.progress --bespoke.osc -I 03_python3_core_fundementals/slides/ -o compiled_slides/html/
+
+_build_section_04:
+	$(info [*] Building section 4..)
+	@marp --pdf -I 04_python3_types/slides/ -o compiled_slides/pdf/
+	@marp --pptx --jpeg-quality 100 -I 04_python3_types/slides/ -o compiled_slides/pptx/
+	@marp --bespoke.progress --bespoke.osc -I 04_python3_types/slides/ -o compiled_slides/html/
+
+_build_section_05:
+	$(info [*] Building section 5..)
+	@marp --pdf -I 05_python3_variables/slides/ -o compiled_slides/pdf/
+	@marp --pptx --jpeg-quality 100 -I 05_python3_variables/slides/ -o compiled_slides/pptx/
+	@marp --bespoke.progress --bespoke.osc -I 05_python3_variables/slides/ -o compiled_slides/html/

@@ -14,7 +14,7 @@
         License: 3-clause BSD, see https://opensource.org/licenses/BSD-3-Clause
 '''
 # END OF METADATA
-
+print("="*24+" LAB-RESULTS "+"="*24)
 # IMPORTS BELLOW
 #   Statments we use to open different modules that people have built. 
 #   This allows code to be reusable, which is a key factor to good 
@@ -55,38 +55,48 @@ import os
  
 init(autoreset=True)
 
-try:
-    v = 'dataNum is set'
-    if float(dataNum) and float(dataNum) == 1.2299:
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataNum():
+    try:
+        v = 'dataNum is set'
+        if float(dataNum) and float(dataNum) == 1.2299:
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
 
-try:
-    v = 'dataNum2 is set'
-    if int(dataNum2) and int(dataNum2) == 10:
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataNum2():
+    try:
+        v = 'dataNum2 is set'
+        if int(dataNum2) and int(dataNum2) == 10:
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
 
-try:
-    v = 'dataNumPower is set and the correct power'
-    if float(dataNumPower) and float(dataNumPower) == 1.5126540099999999:
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataNumPower():
+    try:
+        v = 'dataNumPower is set and the correct power'
+        if float(dataNumPower) and float(dataNumPower) == 1.5126540099999999:
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
 
-try:
-    v = 'dataNum2Bytes is set and the correct bytes'
-    if bytes(dataNum2Bytes) and bytes(dataNum2Bytes) == b'\n':
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataNum2Bytes():
+    try:
+        v = 'dataNum2Bytes is set and the correct bytes'
+        if bytes(dataNum2Bytes) and bytes(dataNum2Bytes) == b'\n':
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
+
+if __name__ == "__main__":
+    test_dataNum()
+    test_dataNum2()
+    test_dataNumPower()
+    test_dataNum2Bytes()

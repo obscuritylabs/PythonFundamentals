@@ -14,7 +14,7 @@
         License: 3-clause BSD, see https://opensource.org/licenses/BSD-3-Clause
 '''
 # END OF METADATA
-
+print("="*24+" LAB-RESULTS "+"="*24)
 # IMPORTS BELLOW
 #   Statments we use to open different modules that people have built. 
 #   This allows code to be reusable, which is a key factor to good 
@@ -55,29 +55,37 @@ import os
  
 init(autoreset=True)
 
-try:
-    v = 'dataStr is set'
-    if str(dataStr) and str(dataStr) == 'opensource.com':
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataStr():
+    try:
+        v = 'dataStr is set'
+        if str(dataStr) and str(dataStr) == 'opensource.com':
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
 
-try:
-    v = 'dataStrFull is set'
-    if str(dataStrFull) and str(dataStrFull) == 'https://opensource.com':
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataStrFull():
+    try:
+        v = 'dataStrFull is set'
+        if str(dataStrFull) and str(dataStrFull) == 'https://opensource.com':
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
 
-try:
-    v = 'dataStrSplit is set and the correct split'
-    if list(dataStrSplit) and dataStrSplit[1] == 'com' :
-        print("%s: %s" % (v, colored('PASS', 'green')))
-    else:
+def test_dataStrSplit():
+    try:
+        v = 'dataStrSplit is set and the correct split'
+        if list(dataStrSplit) and dataStrSplit[1] == 'com' :
+            print("%s: %s" % (v, colored('PASS', 'green')))
+        else:
+            print("%s: %s" % (v, colored('FAIL', 'red')))
+    except NameError:
         print("%s: %s" % (v, colored('FAIL', 'red')))
-except NameError:
-    print("%s: %s" % (v, colored('FAIL', 'red')))
+
+if __name__ == "__main__":
+    test_dataStr()
+    test_dataStrFull()
+    test_dataStrSplit()
