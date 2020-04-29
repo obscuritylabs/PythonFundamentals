@@ -36,19 +36,19 @@ The following is the defacto Python module directory structure.
 ```
 .                                                                                                            
 ├── docs # project documentation
-│   ├── conf.py
-│   ├── index.rst
-│   ├── make.bat
-│   └── Makefile
+│   ├── conf.py
+│   ├── index.rst
+│   ├── make.bat
+│   └── Makefile
 ├── LICENSE
 ├── Makefile
 ├── MANIFEST.in
 ├── README.rst
 ├── requirements.txt
 ├── sample # source code
-│   ├── core.py
-│   ├── helpers.py
-│   └── __init__.py
+│   ├── core.py
+│   ├── helpers.py
+│   └── __init__.py
 ├── setup.py # setuptools package
 └── tests # unit and integration tests
     ├── context.py
@@ -67,20 +67,20 @@ A progressive approach can be used with modern tooling and build systems.
 awesome_toolset                                                                                                 
 ├── Dockerfile <-- Used Testing - Publishing - Public Consumption
 ├── docs <-- Can be now be published with MkDocs etc.
-│   └── index.md
+│   └── index.md
 ├── Makefile
 ├── MANIFEST.in
 ├── mkdocs.yml
 ├── mypy.ini
 ├── poetry.lock
 ├── awesome_toolset <-- Named module or project
-│   ├── __init__.py
-│   └── main.py
+│   ├── __init__.py
+│   └── main.py
 ├── pylint.ini
 ├── pytest.ini
 ├── README.md
 ├── scripts <-- Various dev scripts
-│   └── configure_project.sh
+│   └── configure_project.sh
 ├── setup.cfg
 ├── setup.py
 └── tests <-- Store unit tests for Pytest etc.

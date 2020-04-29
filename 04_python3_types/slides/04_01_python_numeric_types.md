@@ -158,7 +158,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 ---
-# Lab 1
+# Lab 1 - Familiarization
 **Tasking**
 Using the new `python` command perform the following get familiar with `numeric` types:
 1. Perform a basic addition operation ex. `10 + 10`

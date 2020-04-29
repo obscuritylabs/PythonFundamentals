@@ -57,4 +57,3 @@ Here are a few tips when selecting Python Packages:
 * Make sure the package has solid documentation and can achieve your goal in a clearly defined matter.
 * Check to make sure the source control management is being done properly.
 
-

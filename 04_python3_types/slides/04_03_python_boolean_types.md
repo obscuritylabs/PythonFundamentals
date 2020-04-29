@@ -59,7 +59,7 @@ print(bool("Hello World"))
 ## Why?
 
 ---
-# Lab 1
+# Lab 1 - Familiarization
 **Tasking**
 Using the new `python` command perform the following get familiar with `bool` types:
 1. Perform a basic compare operation ex. `'hi' == 'hi'`
