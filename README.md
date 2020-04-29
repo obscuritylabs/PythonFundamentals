@@ -1,3 +1,5 @@
+
+[![Run on Repl.it](https://repl.it/badge/github/obscuritylabs/PythonFundamentals)](https://repl.it/github/obscuritylabs/PythonFundamentals)
 # Python Fun(damentals)
 
 ## Course TOC

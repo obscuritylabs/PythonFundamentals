@@ -14,15 +14,15 @@
         License: 3-clause BSD, see https://opensource.org/licenses/BSD-3-Clause
 '''
 # END OF METADATA
-
+print("="*24+" LAB-RESULTS "+"="*24)
 # IMPORTS BELLOW
 #   Statments we use to open different modules that people have built. 
 #   This allows code to be reusable, which is a key factor to good 
 #   programming and performance.
-
+import os
 # END OF IMPORTS
 
-# START OF CODE BLOCK
+# START OF LAB CODE BLOCK
 """
 TASKING:
     Take the time to create two key variables, currentProgram which is a string
@@ -37,8 +37,7 @@ TASKING:
 
 
 
-
-# END OF CODE BLOCK
+# END OF LAB CODE BLOCK
 
 # ----- DO NOT EDIT BELLOW THIS LINE -----
 from colorama import init
@@ -46,21 +45,29 @@ from termcolor import colored
 import os
 
 init(autoreset=True)
+# print test harness
+print("="*20+" TEST-HARNESS-RESULTS "+"="*20)
 
 # check if program name is defined
-try:
-    if str(currentProgram) and str(currentProgram) == 'lab-1.py':
-        print("Program name is defined: %s" % (colored('PASS', 'green')))
-    else:
+def test_program_name():
+    try:
+        if str(currentProgram) and str(currentProgram) == 'lab-1.py':
+            print("Program name is defined: %s" % (colored('PASS', 'green')))
+        else:
+            print("Program name is defined: %s" % (colored('FAIL', 'red')))
+    except NameError:
         print("Program name is defined: %s" % (colored('FAIL', 'red')))
-except NameError:
-    print("Program name is defined: %s" % (colored('FAIL', 'red')))
-    
+
 # check if program pid is defined
-try:
-    if int(currentPid) and int(currentPid) == os.getpid():
-        print("Program PID is defined: %s" % (colored('PASS', 'green')))
-    else:
+def test_program_pid():
+    try:
+        if int(currentPid) and int(currentPid) == os.getpid():
+            print("Program PID is defined: %s" % (colored('PASS', 'green')))
+        else:
+            print("Program name is defined: %s" % (colored('FAIL', 'red')))
+    except NameError:
         print("Program name is defined: %s" % (colored('FAIL', 'red')))
-except NameError:
-    print("Program name is defined: %s" % (colored('FAIL', 'red')))
+
+if __name__ == "__main__":
+    test_program_name()
+    test_program_pid()

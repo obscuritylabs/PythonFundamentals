@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # PYTHON METADATA BELLOW
 '''
     File name: lab-1.py
@@ -31,12 +32,6 @@ TASKING:
     method you would like to use.
 """
 
-currentProgram = 'lab-1.py'
-
-currentPid = os.getpid()
-
-print("current program: %s" % (currentProgram))
-print("current PID: %d" % (currentPid))
 
 # END OF LAB CODE BLOCK
 
@@ -50,25 +45,13 @@ init(autoreset=True)
 print("="*20+" TEST-HARNESS-RESULTS "+"="*20)
 
 # check if program name is defined
-def test_program_name():
+def test_pytest_installed():
     try:
-        if str(currentProgram) and str(currentProgram) == 'lab-1.py':
-            print("Program name is defined: %s" % (colored('PASS', 'green')))
-        else:
-            print("Program name is defined: %s" % (colored('FAIL', 'red')))
-    except NameError:
-        print("Program name is defined: %s" % (colored('FAIL', 'red')))
-
-# check if program pid is defined
-def test_program_pid():
-    try:
-        if int(currentPid) and int(currentPid) == os.getpid():
-            print("Program PID is defined: %s" % (colored('PASS', 'green')))
-        else:
-            print("Program name is defined: %s" % (colored('FAIL', 'red')))
-    except NameError:
-        print("Program name is defined: %s" % (colored('FAIL', 'red')))
+        import pytest
+        print("pytest is installed: %s" % (colored('PASS', 'green')))
+    except Exception as e:
+        print("pytest is NOT installed: %s" % (colored('FAIL', 'red')))
 
 if __name__ == "__main__":
-    test_program_name()
-    test_program_pid()
+    test_pytest_installed()
+
