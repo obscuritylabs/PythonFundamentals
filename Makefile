@@ -22,7 +22,7 @@ shell:
 	@poetry install
 	@poetry shell
 	
-build: clean _build_section_02
+build: clean _build_section_01 _build_section_02
 	$(info [*] Build complete..)
 	
 
@@ -51,7 +51,12 @@ _docker_clean:
 	$(info [*] Stoping development stack..)
 	@docker-compose -f local.yml down -v 2>/dev/null 
 	$(info [*] Removing development stack..)
-	@docker-compose -f local.yml rm 2>/dev/null 
+	@docker-compose -f local.yml rm 2>/dev/null
+
+_build_section_01:
+	@marp --pdf -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/pdf/
+	@marp --pptx --jpeg-quality 100 -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/pptx/
+	@marp --bespoke.progress --bespoke.osc -I 01_python3_tooling_build_systems/slides/ -o compiled_slides/html/
 
 _build_section_02:
 	@marp --pdf -I 02_python3_packaging_managment/slides/ -o compiled_slides/pdf/
