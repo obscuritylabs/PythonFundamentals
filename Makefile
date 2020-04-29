@@ -82,3 +82,9 @@ _build_section_05:
 	@marp --pdf -I 05_python3_variables/slides/ -o compiled_slides/pdf/
 	@marp --pptx --jpeg-quality 100 -I 05_python3_variables/slides/ -o compiled_slides/pptx/
 	@marp --bespoke.progress --bespoke.osc -I 05_python3_variables/slides/ -o compiled_slides/html/
+
+_build_section_06:
+	$(info [*] Building section 6..)
+	@marp --pdf -I 06_python3_flow_control/slides/ -o compiled_slides/pdf/
+	@marp --pptx --jpeg-quality 100 -I 06_python3_flow_control/slides/ -o compiled_slides/pptx/
+	@marp --bespoke.progress --bespoke.osc -I 06_python3_flow_control/slides/ -o compiled_slides/html/
