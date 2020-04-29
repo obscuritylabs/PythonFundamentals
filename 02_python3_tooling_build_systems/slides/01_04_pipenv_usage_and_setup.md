@@ -68,7 +68,7 @@ $ pipenv shell
 $ pipenv run python --version
 ```
 
-Another very handy command to reset your enviroment by deleting the old `env`:
+Another very handy command to reset your environment by deleting the old `env`:
 
 ```bash
 $ pipenv --rm
@@ -94,7 +94,7 @@ To activate this project's virtualenv, run the following:
  $ pipenv shell
 ```
 
-We can also pin packages to development so when we go to production we dont bring along extra testing packages.
+We can also pin packages to development so when we go to production we don't bring along extra testing packages.
 
 ```bash
 $ pipenv install pytest --dev

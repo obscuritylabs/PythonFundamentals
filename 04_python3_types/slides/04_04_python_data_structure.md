@@ -18,14 +18,14 @@ Obscurity Labs
 
 ---
 # What Are Data Structures
-We will not be covering all types as the scope of this course is a intro to the CS / Python world.
+We will not be covering all types as the scope of this course is an intro to the CS / Python world.
 * Non-primitive types are part of the data structure family.
     * arrays
     * lists
     * files
 * Traditional computer science world requires a way to store data.
-* Data structures help programers store data for later use, pass data, store collections etc.
-* Critical to the design of how programers process data.
+* Data structures help programmers store data for later use, pass data, store collections, etc.
+* Critical to the design of how programmers process data.
 * Python provides many features that would be required to work with these structures.
 
 ---
@@ -50,10 +50,10 @@ Each entry is stored in a stack structure, imagine a large `todo` list at home:
 | 1 | 2 | 3 | 4 |
 | - | - | - | - |
 
-With this you can reference on of those `todo` items using the simple index operator:
+With this you can reference one of those `todo` items using the simple index operator:
 ```Python
 Python 3.7.5 (default, Apr 19 2020, 20:18:17)
-[GCC 9.2.1 20191008] on linux
+[GCC 9.2.1 20191008] on Linux
 Type "help", "copyright", "credits" or "license" for more information.
     #    0, 1, 2, 3 <--- Index location
 >>> x = [1, 2, 3, 4]
@@ -63,7 +63,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ---
 # Python3 lists unlike entries
-One of the unique factors of the `list` is there ability to store multiple unlike types. Unlike a traditional array where all values must be the same type.
+One of the unique factors of the `list` is their ability to store multiple, unlike types. Unlike a traditional array where all values must be the same type.
 
 ```python
 Python 3.7.5 (default, Apr 19 2020, 20:18:17)
@@ -98,7 +98,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 # Lab 1 - Familiarization
 **Tasking**
 Using the new `python` command perform the following get familiar with `list` types:
-1. Create a bassic list ex. `[1, 'hi', 'bye', 4]`
+1. Create a basic list ex. `[1, 'hi', 'bye', 4]`
 2. Attempt to change a value in this list by its index value
 
 ---
@@ -118,7 +118,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ---
 # Working with Python `dict`
-Python Dictionaries are simular to lists as they are mutable and values can be changed. but unlike list you would need to know where every entry is within the list to look up a phone number right?
+Python Dictionaries are similar to lists as they are mutable and values can be changed. but unlike a list, you would need to know where every entry is within the list to look up a phone number right?
 
 Python `dict` provides a lookup table to handle this:
 
@@ -132,11 +132,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 '215-586-1111'
 ```
 
-These are called `keys`, many technologies use a concept called `keystore`. Redis is a example of this and they are generally in-memory data stores for fast and random access to your data.
+These are called `keys`, many technologies use a concept called `keystore`. Redis is an example of this and they are generally in-memory data stores for fast and random access to your data.
 
 ---
 # Python3 `dict` Mutable Proprieties
-`dict` are mutable, which means that you can change their content without changing their identity.
+`dict` is mutable, which means that you can change their content without changing their identity.
 
 ```Python
 Python 3.7.5 (default, Apr 19 2020, 20:18:17)

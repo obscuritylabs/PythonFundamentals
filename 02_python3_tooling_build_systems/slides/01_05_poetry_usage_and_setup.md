@@ -26,7 +26,7 @@ The venv module provides support for creating lightweight “virtual environment
 * Poetry comes with an exhaustive dependency resolver.
 * Poetry either uses your configured `virtualenvs` or creates its own to always be isolated from your system.
 * The most intuitive CLI on the market.
-* Uses the newest PEP standards .
+* Uses the newest PEP standards.
 * Fully managed build systems and publishing of Python modules.
 * The Package manager we will use going forward.
 
@@ -35,7 +35,7 @@ The venv module provides support for creating lightweight “virtual environment
 
 `poetry` provides a handy set of tools to work with `virtualenvs` locally.
 
-We will start with building our very own `env` like we did with other tools, only difference is poetry will even scafold the project for you:
+We will start by building our very own `env` as we did with other tools, the only difference is poetry will even scaffold the project for you:
 
 ```bash
 $ poetry init                                                                                     
@@ -52,7 +52,7 @@ name = "01_python3_tooling_build_systems"
 version = "0.1.0"
 ..::SNIP::..
 
-Do you confirm generation? (yes/no) [yes] yes
+Do you confirm the generation? (yes/no) [yes] yes
 ```
 
 ---
@@ -65,10 +65,10 @@ $ poetry run python --version
 poetry
 ```
 
-We can also go into a interactive shell like we did with `pipenv`:
+We can also go into an interactive shell as we did with `pipenv`:
 ```bash
 $ poetry shell
-ypoetry/virtualenvs/01-python3-tooling-build-systems-3FZumH0Q-py3.7/bin/activate
+poetry/virtualenvs/01-python3-tooling-build-systems-3FZumH0Q-py3.7/bin/activate
 (01-python3-tooling-build-systems-3FZumH0Q-py3.7) $
 ```
 

@@ -55,7 +55,7 @@ What does this look like in the Python Object?
 - Strings implement all of the common sequence operations
 - With the additional methods
 - Python provides TONS of string methods we will only cover a few but labs may require research
-- Most common style is Format String Syntax
+- The most common style is Format String Syntax
 
 ---
 # Python Text Sequence Methods Cont.

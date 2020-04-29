@@ -28,8 +28,8 @@ The venv module provides support for creating lightweight “virtual environment
 * Can have its own independent set of installed Python packages in its site directories.
 * Prevents you from destroying your local development environment.
 * Buys you the ability to test, run and build code in a controlled way.
-* Comes built in with Python3
-* Very low level and root of many build system tools (pipenv, Poetry etc.)
+* Comes built-in with Python3
+* Very low level and root of many build system tools (pipenv, Poetry, etc.)
 
 ---
 # Using `virtualenv` Module

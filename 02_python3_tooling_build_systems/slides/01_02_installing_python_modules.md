@@ -18,8 +18,7 @@ Obscurity Labs
 
 ---
 # Python Package Manager
-
-Python like other major languages has a main choice of a package manager. PyPi provides this support to the open source community and contributors. Provides you the ability to publish your open source project to the world with a simple command to install. PyPi can be found at https://pypi.org/. Which will provide you the following:
+Like other major languages has the main choice of a package manager. PyPi provides this support to the open-source community and contributors. It provides you the ability to publish your open source project to the world with a simple command to install. PyPi can be found at https://pypi.org/. Which will provide you the following:
 
 * Single repository to share your distributed package
 * Strong version control
@@ -99,7 +98,7 @@ urllib3==1.25.9
 * The `requirements.txt` file is used for specifying what python packages are required to run the project. 
 * Typically the requirements.txt file is located in the root directory of your project.
 
-You can easily install your packages (Specfic Versions Known to Work for the Package) using pip and the `requirements.txt` file:
+You can easily install your packages (Specific Versions Known to Work for the Package) using pip and the `requirements.txt` file:
 
 ```bash
 $ cat requirements.txt

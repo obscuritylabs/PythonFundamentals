@@ -20,12 +20,12 @@ Obscurity Labs
 ---
 
 # Python Variables
-Its important to understand C/C++ principles first, to understand what makes Python variables so easy to work with. Lets take the following example in C:
+It's important to understand C/C++ principles first, to understand what makes Python variables so easy to work with. Let's take the following example in C:
 ```c
 /* variable definition: */
-char str[50] = "Better know what im doing";
+char str[50] = "Better know what I'm doing";
 ```
-Now in Python, notice we dont declare it as a char or need size?
+Now in Python, notice we don't declare it as a char or need a size?
 ```python
 a = 'Yea.. no size here'
 ```
@@ -37,7 +37,7 @@ The previous example works because:
 - Based on variable type the Python interpreter allocates memory
 - Declaration happens automatically when you assign a value to the variable
 - This can easily be changed on the fly, expanded or shrunk
-- This is the beauty of an object oriented non-statically typed language. 
+- This is the beauty of an object-oriented non-statically typed language. 
 
 ---
 # Python Variable Memory Cont.
@@ -52,13 +52,13 @@ int var = 34;
 int *ptr;
 ptr = &var;
 printf("\nDirect access, 
-	variable var value = var = %d", var);
+    variable var value = var = %d", var);
 printf("\nIndirect access, 
-	variable var value = *ptr = %d", *ptr);
+    variable var value = *ptr = %d", *ptr);
 printf("\n\nThe memory 
-	address of variable var = &var = %p", &var);
+    address of variable var = &var = %p", &var);
 printf("\nThe memory 
-	address of variable var = ptr = %p\n", ptr);
+    address of variable var = ptr = %p\n", ptr);
 }
 ```
 ---
@@ -73,7 +73,7 @@ Here is a snipt of Python code I used to access `ptr` locations in memory:
 '0x10ae06f80'
 ```
 `id(object)`
-	Return the “identity” of an object. This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value.
+    Return the “identity” of an object. This is an integer that is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value.
     
 ---
 # So what? 

@@ -27,7 +27,7 @@ There are three distinct numeric types:
 
 **NOTE:** Booleans are a subtype of integers (Eg. `True` or `False`)
 
-For this course we will be focusing primarily on the basics of `int` and `float` types as your introduced to Python.
+For this course, we will be focusing primarily on the basics of `int` and `float` types as your introduced to Python.
 
 ---
 # Python 3 Types
@@ -47,7 +47,7 @@ c = 3.14
 ```
 
 ---
-# Python3 Intergers
+# Python3 Integers
 **Five standard types you need know:**
 - Numeric Types - int, float, complex
 - Text Sequence Type - str
@@ -57,17 +57,17 @@ c = 3.14
 - Binary Sequence Types — bytes, bytearray, memoryview
 
 ---
-# Python Numberic Types
-- There are three distinct numeric types: integers, floating point numbers, and complex numbers
+# Python Numeric Types
+- There are three distinct numeric types: integers, floating-point numbers, and complex numbers
 - Booleans are a subtype of integers
 - Integers have unlimited precision
-- Floating point numbers are usually implemented using double in C
+- Floating-point numbers are usually implemented using double in C
 
 
 ---
-# Interger Operations
+# Integer Operations
 
-Here are a few of the `basic` operations you can perform in Python. This is not a exhaustive list as many operations are out of the scope of this course.
+Here are a few of the `basic` operations you can perform in Python. This is not an exhaustive list as many operations are out of the scope of this course.
 | Operation |            Result             |
 | --------- | :---------------------------: |
 | x + y     |        sum of x and y         |
@@ -142,7 +142,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ---
 # Using Floats and Ints
-Take not the order of operations and combination of a `int` and `float`
+Take not the order of operations and combination of an `int` and `float`
 
 ```Python
 Python 3.7.5 (default, Apr 19 2020, 20:18:17) 
@@ -188,7 +188,7 @@ b'\x04\x00'
 # Lab_1.py
 ## TASKING
 
-Perfrom the following on the variable `dataNum`:
+Perform the following on the variable `dataNum`:
 1) Set Value to `1.2299`
 2) Set `dataNumPower` to power of 2 for `dataNum`
 3) Set `dataNum2` to the int `10`

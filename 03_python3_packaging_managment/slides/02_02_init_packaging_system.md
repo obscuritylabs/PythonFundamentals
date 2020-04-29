@@ -21,7 +21,7 @@ Obscurity Labs
 
 # Using `poetry` to start a project
 
-`poetry` provides a handy set of tools to setup a project.
+`poetry` provides a handy set of tools to set up a project.
 
 This command will help you kickstart your new Python project by creating a directory structure suitable for most projects:
 
@@ -49,7 +49,7 @@ $ tree
 ---
 # Using `poetry` to update your decencies
 
-First if we pinned a version we need to update it from exact to `greater` then version notation, this tells `poetry` that we want the newest version above `2.0.0` as thats the minimal tested requirement.
+First, if we pinned a version we need to update it from exact to `greater` then version notation, this tells `poetry` that we want the newest version above `2.0.0` as that's the minimal tested requirement.
 
 ```Python
 [tool.poetry]                                                                               
