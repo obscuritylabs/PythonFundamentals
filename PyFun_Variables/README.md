@@ -1,6 +1,12 @@
+---
+marp: true
+_class: lead
+paginate: true
+footer: 'Copyright (c) 2020 Obscurity Labs LLC.'
+---
+
 # Python Fun(damentals)
 ## Python Variables
-
 
 **Alexander Rymdeko-Harvey**
 Obscurity Labs
@@ -10,11 +16,7 @@ Obscurity Labs
 * Advanced Security Services
 ```
 
-<img src="https://obscuritylabs.com/wp-content/uploads/2018/04/OL-3d-landscape-positive.jpg" alt="Kitten"
-	title="A cute kitten" width="225" height="100" />
-
-<small>Copyright (c) 2018 Alexander Rymdeko-Harvey & Obscurity Labs LLC.</small>
-
+![height:90px](https://obscuritylabs.com/wp-content/uploads/2019/11/OL-3d-landscape-positive-transparent.png)
 
 ---
 
