@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # PYTHON METADATA BELLOW
 '''
     File name: lab-1.py

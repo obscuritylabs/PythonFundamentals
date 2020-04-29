@@ -110,5 +110,6 @@ Using the new `pipenv` command perform the following:
 **Testing your work**
 **NOTE:** you should see Green `PASS` statements indicating you completed the lab
 ```bash
-$ pipenv run lab_4.py
+$ pipenv shell
+$ python lab_4.py
 ```
