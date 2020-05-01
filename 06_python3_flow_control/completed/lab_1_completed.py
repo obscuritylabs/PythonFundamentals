@@ -7,7 +7,7 @@
     Date last modified: 12/12/2018
     Python Version: 3.6.5
     License: 
-        Copyright (c) 2018 ⭕Alexander Rymdeko-Harvey & Obscurity Labs LLC.
+        Copyright (c) 2018 Alexander Rymdeko-Harvey & Obscurity Labs LLC.
 
         This file is part of Python Fundementals (3.6)
         (see https://github.com/obscuritylabs).
